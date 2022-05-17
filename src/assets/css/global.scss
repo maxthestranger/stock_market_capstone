@@ -25,11 +25,16 @@ body {
   font-family: var(--body-font);
   background: var(--dark);
   color: var(--light);
+  line-height: 1.5;
 }
 
 .main {
   width: 100%;
-  min-height: calc(100vh - 159px);
+  min-height: calc(100vh - 169px);
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container {
@@ -102,6 +107,22 @@ header {
         }
       }
     }
+  }
+}
+
+// wrapper / main
+.wrapper {
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: var(--control-font);
+    text-transform: capitalize;
+    font-size: 40px;
+  }
+
+  p {
+    font-family: var(--body-font);
+    text-align: center;
   }
 }
 

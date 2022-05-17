@@ -1,14 +1,18 @@
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-const Home = () => (
+const Ref = () => (
   <>
     <Header />
     <main className="main">
-      <div className="container">pp</div>
+      <div className="container">
+        <div className="wrapper x">
+          <h1>Ref Page</h1>
+        </div>
+      </div>
     </main>
     <Footer />
   </>
 );
 
-export default Home;
+export default Ref;
