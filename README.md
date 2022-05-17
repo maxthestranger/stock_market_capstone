@@ -4,7 +4,6 @@
 
 > Stock market analysis report for major stocks
 
-
 ## Built With
 
 - react, api
@@ -14,26 +13,31 @@
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
 - node and npm
+
 ### Setup
+
 - clone repo && cd into it
 - npm install
 - npm start
+
 ### Install
 
 ### Usage
+
 - localhost:3000 on browser
+
 ### Run tests
+
 - npm test
+
 ### Deployment
-
-
 
 ## Authors
 
@@ -55,9 +59,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Design by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
 
 ## 📝 License
 
