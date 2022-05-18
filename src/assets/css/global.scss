@@ -138,12 +138,16 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .stock_wrapper {
   flex: 1 1 30%;
 
+
   .stock {
+    min-height: 200px;
     text-decoration: none;
     padding: 20px;
     border: 1px solid rgba(236, 76, 137, 0.308);

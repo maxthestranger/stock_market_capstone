@@ -9,5 +9,5 @@ const rootReducer = combineReducers({
   company: companyReducer,
 });
 
-const store = createStore(rootReducer, applyMiddleware(thunk, logger));
+const store = createStore(rootReducer, applyMiddleware(logger, thunk));
 export default store;
