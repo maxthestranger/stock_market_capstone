@@ -142,6 +142,15 @@ header {
   margin-bottom: 50px;
 }
 
+.info-header {
+  margin-bottom: 20px;
+
+  img,
+  h2 {
+    margin-bottom: 10px;
+  }
+}
+
 .stock_wrapper {
   flex: 1 1 30%;
 
@@ -205,15 +214,6 @@ header {
   max-width: 50%;
 }
 
-.info-header {
-  margin-bottom: 20px;
-
-  img,
-  h2 {
-    margin-bottom: 10px;
-  }
-}
-
 .table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -235,6 +235,12 @@ thead {
   letter-spacing: 2%;
 }
 
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px;
+}
+
 thead th {
   font-weight: 700;
   padding: 8px;
@@ -242,12 +248,6 @@ thead th {
   text-align: left;
   color: #fff;
   background: var(--dark);
-}
-
-th,
-td {
-  border: 1px solid rgb(255, 255, 255);
-  padding: 8px;
 }
 
 tbody tr:nth-child(odd) {
