@@ -138,12 +138,24 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.info-header {
+  margin-bottom: 20px;
+
+  img,
+  h2 {
+    margin-bottom: 10px;
+  }
 }
 
 .stock_wrapper {
   flex: 1 1 30%;
 
   .stock {
+    min-height: 200px;
     text-decoration: none;
     padding: 20px;
     border: 1px solid rgba(236, 76, 137, 0.308);
@@ -199,7 +211,51 @@ header {
   font-weight: bold;
   font-family: var(--body-font);
   margin: 50px 0;
-  max-width: 20%;
+  max-width: 50%;
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin-bottom: 1em;
+  border: 1px solid rgb(255, 255, 255);
+  vertical-align: middle;
+}
+
+.table * {
+  word-break: normal;
+}
+
+thead {
+  background-color: #333;
+  color: white;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 2%;
+}
+
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px;
+}
+
+thead th {
+  font-weight: 700;
+  padding: 8px;
+  width: 50%;
+  text-align: left;
+  color: #fff;
+  background: var(--dark);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #333;
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--blue);
 }
 
 // footer
