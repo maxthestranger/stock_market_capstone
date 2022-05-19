@@ -1,0 +1,212 @@
+[
+  {
+    "symbol": "MULN",
+    "name": "Mullen Automotive, Inc.",
+    "change": -0.09,
+    "price": 1.05,
+    "changesPercentage": -7.8947396
+  },
+  {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices, Inc.",
+    "change": -6.19,
+    "price": 96.28,
+    "changesPercentage": -6.040795
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "change": -8.42,
+    "price": 140.82,
+    "changesPercentage": -5.6419177
+  },
+  {
+    "symbol": "NIO",
+    "name": "NIO Inc.",
+    "change": -0.8,
+    "price": 15.83,
+    "changesPercentage": -4.8105793
+  },
+  {
+    "symbol": "F",
+    "name": "Ford Motor Company",
+    "change": -0.75,
+    "price": 12.78,
+    "changesPercentage": -5.543237
+  },
+  {
+    "symbol": "EEM",
+    "name": "iShares MSCI Emerging Markets ETF",
+    "change": -0.99,
+    "price": 40.33,
+    "changesPercentage": -2.395929
+  },
+  {
+    "symbol": "T",
+    "name": "AT&T Inc.",
+    "change": -0.34,
+    "price": 20.23,
+    "changesPercentage": -1.6528932
+  },
+  {
+    "symbol": "HYMC",
+    "name": "Hycroft Mining Holding Corporation",
+    "change": -0.08,
+    "price": 1.26,
+    "changesPercentage": -5.9701524
+  },
+  {
+    "symbol": "SOFI",
+    "name": "SoFi Technologies, Inc.",
+    "change": 0.18,
+    "price": 7.23,
+    "changesPercentage": 2.553189
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "change": -12.39,
+    "price": 169.38,
+    "changesPercentage": -6.816306
+  },
+  {
+    "symbol": "BAC",
+    "name": "Bank of America Corporation",
+    "change": -1.11,
+    "price": 34.88,
+    "changesPercentage": -3.0841918
+  },
+  {
+    "symbol": "TWTR",
+    "name": "Twitter, Inc.",
+    "change": -1.47,
+    "price": 36.85,
+    "changesPercentage": -3.8361204
+  },
+  {
+    "symbol": "AMC",
+    "name": "AMC Entertainment Holdings, Inc.",
+    "change": -0.14,
+    "price": 12.76,
+    "changesPercentage": -1.0852667
+  },
+  {
+    "symbol": "ITUB",
+    "name": "Itaú Unibanco Holding S.A.",
+    "change": -0.09,
+    "price": 4.95,
+    "changesPercentage": -1.7857174
+  },
+  {
+    "symbol": "PLTR",
+    "name": "Palantir Technologies Inc.",
+    "change": -0.35,
+    "price": 8.01,
+    "changesPercentage": -4.1865964
+  },
+  {
+    "symbol": "AAL",
+    "name": "American Airlines Group Inc.",
+    "change": -0.93,
+    "price": 16.89,
+    "changesPercentage": -5.2188573
+  },
+  {
+    "symbol": "VALE",
+    "name": "Vale S.A.",
+    "change": -0.49,
+    "price": 15.62,
+    "changesPercentage": -3.0415936
+  },
+  {
+    "symbol": "CCL",
+    "name": "Carnival Corporation & plc",
+    "change": -1.03,
+    "price": 13.84,
+    "changesPercentage": -6.926696
+  },
+  {
+    "symbol": "OXY",
+    "name": "Occidental Petroleum Corporation",
+    "change": -3.64,
+    "price": 64.3,
+    "changesPercentage": -5.3576674
+  },
+  {
+    "symbol": "INTC",
+    "name": "Intel Corporation",
+    "change": -2.05,
+    "price": 42.35,
+    "changesPercentage": -4.6171236
+  },
+  {
+    "symbol": "BBD",
+    "name": "Banco Bradesco S.A.",
+    "change": -0.08,
+    "price": 3.87,
+    "changesPercentage": -2.0253205
+  },
+  {
+    "symbol": "TLRY",
+    "name": "Tilray Brands, Inc.",
+    "change": -0.35,
+    "price": 4.79,
+    "changesPercentage": -6.8093367
+  },
+  {
+    "symbol": "UBER",
+    "name": "Uber Technologies, Inc.",
+    "change": -1.74,
+    "price": 22.46,
+    "changesPercentage": -7.1900897
+  },
+  {
+    "symbol": "SWN",
+    "name": "Southwestern Energy Company",
+    "change": -0.34,
+    "price": 7,
+    "changesPercentage": -4.6321545
+  },
+  {
+    "symbol": "BABA",
+    "name": "Alibaba Group Holding Limited",
+    "change": -4.68,
+    "price": 87.31,
+    "changesPercentage": -5.08751
+  },
+  {
+    "symbol": "FB",
+    "name": "Meta Platforms, Inc.",
+    "change": -10.38,
+    "price": 192.24,
+    "changesPercentage": -5.122885
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "change": -12.12,
+    "price": 254.08,
+    "changesPercentage": -4.5529714
+  },
+  {
+    "symbol": "PBR",
+    "name": "Petróleo Brasileiro S.A. - Petrobras",
+    "change": -0.41,
+    "price": 14.75,
+    "changesPercentage": -2.7044845
+  },
+  {
+    "symbol": "XOM",
+    "name": "Exxon Mobil Corporation",
+    "change": -1.46,
+    "price": 90.65,
+    "changesPercentage": -1.5850604
+  },
+  {
+    "symbol": "NOK",
+    "name": "Nokia Oyj",
+    "change": -0.18,
+    "price": 4.86,
+    "changesPercentage": -3.5714254
+  }
+]
