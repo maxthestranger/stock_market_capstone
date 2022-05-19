@@ -1,47 +1,21 @@
 import stockAPI from '../api/stockAPI';
 
-const FETCH_REQUEST = 'FETCH_REQUEST';
-const FETCH_SUCCESS = 'FETCH_SUCCESS';
-const FETCH_ERROR = 'FETCH_ERROR';
-
-function fetchPostsRequest() {
-  return {
-    type: FETCH_REQUEST,
-  };
-}
-
-function fetchPostsSuccess(stocks) {
-  return {
-    type: FETCH_SUCCESS,
-    stocks,
-  };
-}
-
-function fetchPostsError() {
-  return {
-    type: FETCH_ERROR,
-  };
-}
+const FETCH_STOCK = 'FETCH_STOCK';
 
 export function fetchStock() {
-  return (dispatch) => {
-    dispatch(fetchPostsRequest());
-    return stockAPI.getStock().then((data) => {
-      if (data) {
-        dispatch(fetchPostsSuccess(data));
-      } else {
-        dispatch(fetchPostsError());
-      }
-    });
-  };
+  return (dispatch) => stockAPI.getStock().then((data) => {
+    if (data) {
+      dispatch({
+        type: FETCH_STOCK,
+        stocks: data,
+      });
+    }
+  });
 }
 
 export default function reducer(state = [], action) {
   switch (action.type) {
-    case FETCH_REQUEST:
-      return state;
-
-    case FETCH_SUCCESS:
+    case FETCH_STOCK:
       return action.stocks;
 
     default:

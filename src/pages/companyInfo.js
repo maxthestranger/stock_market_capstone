@@ -37,6 +37,23 @@ const CompanyInfo = () => {
                 <p>{info.description}</p>
               </div>
             </div>
+
+            <table className="table">
+              <thead>
+                <tr>
+                  <th>Listings</th>
+                  <th>Values</th>
+                </tr>
+              </thead>
+              <tbody>
+                {Object.keys(info).map((k) => (
+                  <tr key={k}>
+                    <td>{k}</td>
+                    <td>{info[k]}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </main>
