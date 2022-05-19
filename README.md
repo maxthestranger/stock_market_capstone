@@ -9,9 +9,9 @@
 - react, api
 - webpack, linters
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://stock-market-capstone.vercel.app/)
 
 ## Getting Started
 
